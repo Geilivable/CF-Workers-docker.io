@@ -411,7 +411,7 @@ async function searchInterface() {
 	function performSearch() {
 		const query = document.getElementById('search-input').value;
 		if (query) {
-			window.location.href = '/search?q=' + encodeURIComponent(query);
+			window.location.href = 'https://hub.docker.com/search?q=' + encodeURIComponent(query);
 		}
 	}
 	
